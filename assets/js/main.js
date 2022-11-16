@@ -82,6 +82,20 @@
             }
         }
     });
+
+    // Services Slider
+
+    $(".services-wpr").owlCarousel({
+        items:5,
+        loop:true,
+        autoplay:false,
+        margin: 16,
+        stagePadding:2,
+        nav:true,
+        navText: ["<i class='icofont-thin-left'></i>","<i class='icofont-thin-right'></i>"],
+        dots:false,
+        center:true
+    })
       
 
 })(jQuery);
