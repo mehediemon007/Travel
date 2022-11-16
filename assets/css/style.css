@@ -508,6 +508,10 @@ header.fixed span.product-count{
 
 /* Tour Packages */
 
+.trv-packages{
+    background-color: rgba(191, 223, 249, 0.1);
+}
+
 .single-package{
     position: relative;
     background-color: var(--white-color);
@@ -534,7 +538,7 @@ header.fixed span.product-count{
     display: flex;
     align-items: center;
     gap: 16px;
-    margin: 12px 0;
+    margin: 16px 0 12px;
 }
 
 .package-meta-data .tag{
@@ -548,6 +552,16 @@ header.fixed span.product-count{
 .package-meta-data .tag.adventure{
     color: var(--secondary-color);
     background-color: rgba(235, 0, 139, .2);
+}
+
+.package-meta-data .tag.nature{
+    color: #007D1C;
+    background-color: rgba(1, 182, 41, 0.25);
+}
+
+.package-meta-data .tag.wild{
+    color: #cf9b00;
+    background-color: rgba(255, 193, 7, 0.34);
 }
 
 .single-package .package-price{
