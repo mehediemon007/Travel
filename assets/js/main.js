@@ -88,7 +88,7 @@
     $(".services-wpr").owlCarousel({
         items:5,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         margin: 16,
         stagePadding:2,
         nav:true,

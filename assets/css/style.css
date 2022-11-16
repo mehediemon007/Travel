@@ -268,6 +268,25 @@ input::placeholder{
     color: var(--white-color);
 }
 
+.btn{
+    width: max-content;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 12px;
+    line-height: 40px;
+    outline: none;
+}
+
+.primary-btn{
+    color: var(--primary-color);
+    background-color: rgba(191, 223, 249, 0.34);
+}
+
+.primary-btn:hover{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
 /* Header */
 
 .trv-header{
@@ -485,6 +504,63 @@ header.fixed span.product-count{
     font-weight: var(--font-weight-semi-bold);
     text-align: center;
     margin-top: 8px;
+}
+
+/* Tour Packages */
+
+.single-package{
+    position: relative;
+    background-color: var(--white-color);
+    border-radius: 40px;
+    padding: 16px 32px;
+}
+
+.package-image img{
+    border-radius: 30px;
+    max-width: 95%;
+}
+
+.single-package .package-date{
+    position: absolute;
+    top: 25%;
+    right: -40px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transform: rotate(90deg);
+}
+
+.package-meta-data{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+}
+
+.package-meta-data .tag{
+    font-size: 14px;
+    color: var(--primary-color);
+    background-color: rgba(191, 223, 249, 0.34);
+    border-radius: 30px;
+    padding: 4px 12px;
+}
+
+.package-meta-data .tag.adventure{
+    color: var(--secondary-color);
+    background-color: rgba(235, 0, 139, .2);
+}
+
+.single-package .package-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.single-package .package-price sub{
+    font-weight: var(--font-weight-medium);
+    color: var(--primary-color);
+    bottom: -4px;
 }
 
 
