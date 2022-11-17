@@ -263,8 +263,10 @@
     }
 
     .middle-footer ul li,
-    .middle-footer ul li a{
-        font-size: 13px !important;
+    .middle-footer p,
+    .middle-footer ul li a,
+    .copyright address{
+        font-size: 14px !important;
     }
 
     .quick-view-container{

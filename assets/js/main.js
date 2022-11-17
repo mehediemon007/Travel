@@ -96,6 +96,35 @@
         dots:false,
         center:true
     })
+
+    // Client Review
+
+    $(".client-reviews").owlCarousel({
+        loop:true,
+        autoplay:true,
+        margin:16,
+        nav:false,
+        smartSpeed:500,
+        responsive:{
+            0:{
+                items: 1.25
+            },
+            575:{
+                items: 2.35
+            },
+        }
+    })
+
+    // Counter
+
+    if($('.counter').length){
+
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    
+    }
       
 
 })(jQuery);
