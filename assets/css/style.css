@@ -237,6 +237,10 @@ input::placeholder{
     padding-bottom: 80px;
 }
 
+.sec-mt{
+    margin-top: 80px;
+}
+
 .owl-nav button{
     position: absolute;
     top: -70px;
@@ -778,6 +782,10 @@ header.fixed span.product-count{
 }
 
 /* Popular Destinations */
+
+.trv-destinations{
+    background-color: rgba(191, 223, 249, 0.1);
+}
 
 .single-destination{
     position: relative;
