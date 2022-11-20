@@ -94,7 +94,16 @@
         nav:true,
         navText: ["<i class='icofont-thin-left'></i>","<i class='icofont-thin-right'></i>"],
         dots:false,
-        center:true
+        responsive:{
+            0:{
+                items: 2,
+                center:false
+            },
+            575:{
+                items: 5,
+                center:true,
+            },
+        }
     })
 
     // Client Review
