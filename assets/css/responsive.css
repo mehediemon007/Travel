@@ -203,6 +203,10 @@
     .sec-padding{
         padding: 50px 0;
     }
+
+    .sec-pt{
+        padding-top: 50px;
+    }
     
     .sec-pb{
         padding-bottom: 50px;

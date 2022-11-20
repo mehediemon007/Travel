@@ -237,6 +237,10 @@ section{
     padding: 80px 0;
 }
 
+.sec-pt{
+    padding-top: 80px;
+}
+
 .sec-pb{
     padding-bottom: 80px;
 }
@@ -500,6 +504,43 @@ header.fixed span.product-count{
     transition: all 1s .6s;
 }
 
+.trv-sec-banner {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.trv-sec-banner::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(30,117,187,.4);
+    z-index: -1;
+}
+
+.trv-sec-banner ,
+.about-us-banner {
+    background-image: url(../images/banner/about-banner.jpg);
+}
+
+.sec-banner-content {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-banner-content h2{
+    font-size: 40px;
+    color: var(--white-color);
+}
+
 /* About Us */
 
 .sec-title{
@@ -530,6 +571,18 @@ header.fixed span.product-count{
 .about-us-content p{
     margin-top: 24px;
     text-align: justify;
+}
+
+.about-us-details .about-image img{
+    border: none;
+}
+
+.about-us-details .sec-title::before{
+    content: none;
+}
+
+.about-us-details .about-us-content p{
+    margin-top: 8px;
 }
 
 /* Services */
@@ -563,6 +616,7 @@ header.fixed span.product-count{
 }
 
 .single-service img{
+    display: block;
     max-width: 50px;
     margin: 0 auto;
     border-radius: 50%;
