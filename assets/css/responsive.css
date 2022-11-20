@@ -200,6 +200,18 @@
 /* Max Width 480px */
 @media only screen and (max-width:480px){
 
+    .sec-padding{
+        padding: 50px 0;
+    }
+    
+    .sec-pb{
+        padding-bottom: 50px;
+    }
+    
+    .sec-mt{
+        margin-top: 50px;
+    }
+
     .hero-banner-wpr .banner-item{
         height: 500px;
     }

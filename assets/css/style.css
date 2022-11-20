@@ -1046,8 +1046,13 @@ header.fixed span.product-count{
 }
 
 .sidebar-blogs .blog-title h6{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     font-size: 16px;
     font-weight: var(--font-weight-medium);
+    overflow-y: hidden;
+    text-overflow: ellipsis;
     margin-top: 4px;
 }
 
