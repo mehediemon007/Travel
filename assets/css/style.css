@@ -402,6 +402,10 @@ header.fixed span.product-count{
     transform: translateY(-4px);
 }
 
+.nav-toggle{
+    display: none;
+}
+
 /* Hero Banner */
 
 .banner-item{

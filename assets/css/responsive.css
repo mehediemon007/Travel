@@ -212,6 +212,80 @@
         margin-top: 50px;
     }
 
+    .logo img{
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .nav-close{
+        display: block;
+        font-size: 24px;
+        color: var(--white-color);
+        background-color: var(--secondary-color);
+        text-align: right;
+        padding: 8px 16px;
+    }
+
+    .nav-toggle{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        font-size: 24px;
+        color: var(--primary-color);
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(191, 223, 249, 1);
+        transition: left .3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .nav-list.open{
+        left: 0;
+    }
+
+    .nav-list li{
+        display: block;
+        padding: 16px;
+        margin: 0;
+        border-bottom: 1px dashed var(--primary-color);
+    }
+
+    .nav-list li:last-child{
+        border-bottom: 0;
+    }
+
+    .nav-list li a{
+        color: var(--white-color);
+    }
+
+    .toolbar-contact-list{
+        text-align: center;
+    }
+
+    .trv-toolbar .social-links{
+        justify-content: center;
+    }
+
+    .toolbar-contact-list a i, 
+    .trv-toolbar .social-links a{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .toolbar-contact-list a{
+        font-size: 12px;
+    }
+
     .hero-banner-wpr .banner-item{
         height: 500px;
     }

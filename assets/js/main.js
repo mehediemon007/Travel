@@ -134,6 +134,16 @@
         });
     
     }
+
+    // Mobile Menu
+
+    $(".nav-toggle").on("click",function(){
+        $(".nav-list").addClass("open")
+    })
+
+    $(".nav-close").on("click",function(){
+        $(".nav-list").removeClass("open")
+    })
       
 
 })(jQuery);
