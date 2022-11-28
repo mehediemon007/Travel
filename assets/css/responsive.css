@@ -221,15 +221,6 @@
         height: 50px;
     }
 
-    .nav-close{
-        display: block;
-        font-size: 24px;
-        color: var(--white-color);
-        background-color: var(--secondary-color);
-        text-align: right;
-        padding: 8px 16px;
-    }
-
     .nav-toggle{
         display: inline-block;
         width: 30px;
@@ -268,6 +259,15 @@
 
     .nav-list li a{
         color: var(--white-color);
+    }
+
+    .nav-list li.nav-close{
+        font-size: 24px;
+        color: var(--white-color);
+        background-color: var(--secondary-color);
+        border-bottom: none;
+        text-align: right;
+        padding: 8px 16px;
     }
 
     .toolbar-contact-list{

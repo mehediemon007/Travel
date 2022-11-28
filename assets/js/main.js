@@ -124,6 +124,9 @@
         }
     })
 
+    $('.owl-dots button').attr('aria-label', 'owl-btn');
+    $('.owl-nav button').attr('aria-label', 'owl-nav');
+
     // Counter
 
     if($('.counter').length){
